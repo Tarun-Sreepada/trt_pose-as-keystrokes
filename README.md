@@ -27,7 +27,12 @@ You can use a different Arduino but make sure it can act as an HID or send keybo
 8. Modify your keys to your preferences. WS detects change in vertical left hand position. AD detects horizontal position. UPDOWN detects change right hand vertical position. LEFTRIGHT detects change right hand horizontal position. Upload the code into your Arduino via USB. 
 9. Run live_demo_modified code. Connect your Arduino to your PC. Open Notepad. You will see your hand movements sending keystrokes to your PC. Change the margins and timething in your Nano to make it harder to send input to Arduino which lessesn the chances of accidental inputs. Change the delay on the Arduino code to modify how long a key is being pressed.
 
-![demo](https://github.com/Tarun-Sreepada/trt_pose-as-keystrokes/blob/master/demo.mp4)
+
+
+https://user-images.githubusercontent.com/41629493/110740715-dc609100-8276-11eb-8463-7185211b41c7.mp4
+
+
+
 
 Use this repo for emulating SteamVR input on keyboard
 https://github.com/r57zone/OpenVR-driver-for-DIY
