@@ -1,6 +1,11 @@
 # trt_pose-as-keystrokes
-Use nVidia's trt_pose model to detect changes in xy coordinates and send keystrokes to computer via Arduino
+Use nVidia's trt_pose model to detect changes in xy coordinates and send keystrokes to computer via Arduino from the Jetson Nano.
 
+# Demo
+This is just a bandaid until I can figure out how to use the Jetson Nano to send inputs to SteamVR and play.
+https://user-images.githubusercontent.com/41629493/110740715-dc609100-8276-11eb-8463-7185211b41c7.mp4
+
+# Instructions
 Install trt_pose as normal
 https://github.com/NVIDIA-AI-IOT/trt_pose
 
@@ -28,12 +33,7 @@ You can use a different Arduino but make sure it can act as an HID or send keybo
 9. Run live_demo_modified code. Connect your Arduino to your PC. Open Notepad. You will see your hand movements sending keystrokes to your PC. Change the margins and timething in your Nano to make it harder to send input to Arduino which lessesn the chances of accidental inputs. Change the delay on the Arduino code to modify how long a key is being pressed.
 
 
-
-https://user-images.githubusercontent.com/41629493/110740715-dc609100-8276-11eb-8463-7185211b41c7.mp4
-
-
-
-
+# The VR part that I haven't tested much
 Use this repo for emulating SteamVR input on keyboard
 https://github.com/r57zone/OpenVR-driver-for-DIY
 
@@ -49,4 +49,5 @@ To do this you need: A fabo MPU9250 and another Arduino Pro Micro
 
 You can modify the MPU code so that you have the gyro and magnetometer information for more accuracy. The current implementation relies on the Earth's gravitational force to detect the orientation. 
 
+# Issues
 Please DM me any errors or problem with instructions. I will do my best to help you out.
