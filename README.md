@@ -3,7 +3,7 @@ Use nVidia's trt_pose model to detect changes in xy coordinates and send keystro
 
 # Demo
 This is just a bandaid until I can figure out how to use the Jetson Nano to send inputs to SteamVR and play.
-https://user-images.githubusercontent.com/41629493/110740715-dc609100-8276-11eb-8463-7185211b41c7.mp4
+![demo](https://user-images.githubusercontent.com/41629493/110740715-dc609100-8276-11eb-8463-7185211b41c7.mp4)
 
 # Instructions
 Install trt_pose as normal
